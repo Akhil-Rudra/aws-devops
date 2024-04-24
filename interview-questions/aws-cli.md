@@ -32,7 +32,8 @@ Output formatting options allow you to specify how the results of AWS CLI comman
 You can use filters like `--query` to extract specific data from AWS CLI command output, and you can use `--output` to choose the format of the output.
 
 ### 12. How can you create and manage AWS resources using the AWS CLI?
-You can create and manage AWS resources using commands such as `aws ec2 create-instance` for EC2 instances or `aws s3 cp` to copy files to Amazon S3 buckets.
+You can create and manage AWS resources using commands such as `aws ec2 create-instance` for EC2 instances or `aws s3 cp` to copy files to Amazon S3 buckets. Ex: aws s3 mb s3://bucket-name (create bucket), aws s3 rb s3://bucket-name (delete bucket)
+
 
 ### 13. How does AWS CLI handle pagination of results?
 Some AWS CLI commands return paginated results. You can use the `--max-items` and `--page-size` options to control the number of items displayed per page.
