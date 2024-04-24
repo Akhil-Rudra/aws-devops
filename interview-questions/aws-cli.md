@@ -36,7 +36,7 @@ You can create and manage AWS resources using commands such as `aws ec2 create-i
 
 
 ### 13. How does AWS CLI handle pagination of results?
-Some AWS CLI commands return paginated results. You can use the `--max-items` and `--page-size` options to control the number of items displayed per page.
+Some AWS CLI commands return paginated results. You can use the `--max-items` and `--page-size` options to control the number of items displayed per page. Ex: aws ec2 describe-instances --max-items 10 --page-size 5
 
 ### 14. What is the AWS SSO (Single Sign-On) feature in the AWS CLI?
 The AWS SSO feature in the AWS CLI allows you to authenticate and obtain temporary credentials using an AWS SSO profile, simplifying the management of credentials.
