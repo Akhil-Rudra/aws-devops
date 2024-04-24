@@ -64,5 +64,10 @@ You can secure the AWS CLI on your local machine by using IAM roles, IAM user-ba
 ### 19. How can you update the AWS CLI to the latest version?
 You can update the AWS CLI to the latest version using package managers like `pip` (Python package manager) or by downloading the installer from the AWS website.
 
+Ex: sudo apt-get install --only-upgrade awscli, pip install --upgrade awscli
+
 ### 20. How do you uninstall the AWS CLI?
 To uninstall the AWS CLI, you can use the package manager or the uninstaller provided by the installer you used to install it initially.
+
+Ex: sudo apt-get purge awscli, pip uninstall awscli
+
