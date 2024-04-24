@@ -53,6 +53,7 @@ aws cloudformation delete-stack --stack-name my-stack
 
 ### 16. How can you debug AWS CLI commands?
 You can use the `--debug` option with AWS CLI commands to get detailed debug information, which can help troubleshoot issues.
+Ex: aws s3 ls --debug, aws ec2 describe-instances --debug
 
 ### 17. Can you use the AWS CLI in AWS Lambda functions?
 Yes, AWS Lambda functions can use the AWS CLI by packaging it with the function code and executing CLI commands from within the function.
