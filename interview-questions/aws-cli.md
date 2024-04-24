@@ -43,8 +43,11 @@ The AWS SSO feature in the AWS CLI allows you to authenticate and obtain tempora
 
 ### 15. Can you use the AWS CLI to work with AWS CloudFormation?
 Yes, you can use the AWS CLI to create, update, and delete CloudFormation stacks using the `aws cloudformation` commands.
-Ex: aws cloudformation create-stack --stack-name my-stack --template-body file://template.yml --parameters ParameterKey=KeyPairName,ParameterValue=my-keypair
-aws cloudformation update-stack --stack-name my-stack --template-body file://template.yml --parameters ParameterKey=KeyPairName,ParameterValue=my-keypair
+
+Ex: aws cloudformation create-stack --stack-name my-stack --template-body file://template.yml --parameters ParameterKey=KeyPairName,ParameterValue=my-keypair,
+
+aws cloudformation update-stack --stack-name my-stack --template-body file://template.yml --parameters ParameterKey=KeyPairName,ParameterValue=my-keypair,
+
 aws cloudformation delete-stack --stack-name my-stack
 
 
