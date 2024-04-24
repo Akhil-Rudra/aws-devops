@@ -17,7 +17,7 @@ You can configure the AWS CLI by running the `aws configure` command, where you 
 IAM user-based credentials are long-term access keys associated with an IAM user, while IAM role-based credentials are temporary credentials obtained by assuming a role using the `sts assume-role` command.
 
 ### 7. How can you interact with AWS services using the AWS CLI?
-You can interact with AWS services by using AWS CLI commands specific to each service. For example, you can use `aws ec2 describe-instances` to list EC2 instances.
+You can interact with AWS services by using AWS CLI commands specific to each service. For example, you can use `aws ec2 describe-instances` to list EC2 instances.  Ex: aws ec2 start-instances --instance-ids i-xxxxxxxx, aws ec2 stop-instances --instance-ids i-xxxxxxxx, aws ec2 describe-instances, aws ec2 terminate-instances --instance-ids i-xxxxxxxx
 
 ### 8. What is the syntax for AWS CLI commands?
 The basic syntax for AWS CLI commands is `aws <service-name> <operation> [options]`, where you replace `<service-name>` with the service you want to interact with and `<operation>` with the desired action.
